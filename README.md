@@ -123,8 +123,8 @@ aws-multi-tier-vpc/
 
 ## Design Decisions
 
-- Native Terraform resources only -- no community modules -- so every argument is explicit and explainable
+- Native Terraform resources only,no community modules so every argument is explicit and explainable
 - Subnets are managed via a `for_each` driven module to demonstrate reusable module patterns while keeping the core architecture visible in root
-- DB route table has no default route -- DB tier has no path to the internet by design
+- DB route table has no default route. DB tier has no path to the internet by design
 - Bastion IP is passed as a variable and excluded from version control via `terraform.tfvars`
 - NAT Gateway is deployed in a single AZ to minimize cost for a portfolio environment
