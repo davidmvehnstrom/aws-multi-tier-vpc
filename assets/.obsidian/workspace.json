@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "0b465c9a309863d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8c3b21438ddc162",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3b1e42ff626a814",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "diagram.png"
+              },
+              "icon": "lucide-image",
+              "title": "diagram"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f3998207cf070fd0",
+    "type": "split",
+    "children": [
+      {
+        "id": "cfc7e4c74acfddfe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "382c2e6a20dbbbb5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "73f9bdab7b9fe610",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "85cb734df332e41e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "07d711e34635c804",
+    "type": "split",
+    "children": [
+      {
+        "id": "7756d655ff4deb7c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "afe8e97923768c47",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "diagram.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for diagram"
+            }
+          },
+          {
+            "id": "c605b192f086d389",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "diagram.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from diagram"
+            }
+          },
+          {
+            "id": "3452d36f52981fbd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d03daf401ece9cf9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "3e3d2cee52af6ce8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "diagram.png",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of diagram"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c3b1e42ff626a814",
+  "lastOpenFiles": []
+}

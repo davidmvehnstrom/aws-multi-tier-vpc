@@ -64,3 +64,34 @@ resource "aws_route_table" "priv_db_rt" {
     Name = "mvc-rt-priv-db"
   }
 }
+
+resource "aws_route_table_association" "pub_a_assoc" {
+  subnet_id      = module.subnets.subnet_ids["pub_a"]
+  route_table_id = aws_route_table.public_rt.id
+}
+
+resource "aws_route_table_association" "pub_b_assoc" {
+  subnet_id      = module.subnets.subnet_ids["pub_b"]
+  route_table_id = aws_route_table.public_rt.id
+}
+
+resource "aws_route_table_association" "priv_app_a_assoc" {
+  subnet_id      = module.subnets.subnet_ids["priv_app_a"]
+  route_table_id = aws_route_table.priv_app_rt.id
+}
+
+resource "aws_route_table_association" "priv_app_b_assoc" {
+  subnet_id      = module.subnets.subnet_ids["priv_app_b"]
+  route_table_id = aws_route_table.priv_app_rt.id
+}
+
+resource "aws_route_table_association" "priv_db_a_assoc" {
+  subnet_id      = module.subnets.subnet_ids["priv_db_a"]
+  route_table_id = aws_route_table.priv_db_rt.id
+}
+
+resource "aws_route_table_association" "priv_db_b_assoc" {
+  subnet_id      = module.subnets.subnet_ids["priv_db_b"]
+  route_table_id = aws_route_table.priv_db_rt.id
+}
+
